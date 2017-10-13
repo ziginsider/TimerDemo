@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="io.github.ziginsider.timerdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/text_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:text="ziginsider.github.io"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/chkbx_singleshot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Shot" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+
+    <TextView
+        android:id="@+id/txtvw_counter"
+        android:layout_gravity="center_horizontal"
+        android:text="00:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
